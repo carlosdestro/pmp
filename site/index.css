@@ -1,0 +1,188 @@
+body
+{
+	margin:0px;
+	padding:0px;
+	font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	color: white;
+	background: url(img/logo-bg.png);
+	background-attachment: fixed;
+}
+
+#main
+{
+	width: 1024px;
+	min-width: 800px;
+	max-width: 1200px;
+	margin-left: -512px;
+	position: fixed;
+	height: 100%;
+	left: 50%;
+	box-shadow: 0px 0px 15px #333;
+}
+
+.shadowed {
+   -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+#topo
+{
+	height: 230px;
+	overflow: hidden;
+	background-color: #ffec00;
+	position: relative;
+}
+
+#logo
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 25%;
+	/* margin-left: auto; */
+	/* margin-right: auto; */
+	transform: translate(-50%, -50%);
+}
+
+#news
+{
+	position: absolute;
+	top: 20px;
+	right: 10%;
+	width: 30%;
+	max-width: 280px;
+	display: none;
+}
+
+#destaque
+{
+	width: 100%;
+	background-color: eedb00;
+	padding: 20px 0px 20px 0px;
+	margin: auto;
+}
+#rodape
+{
+	width: 100%;
+	background-color: red;
+	padding: 20px 0px 20px 0px;
+	/* margin: auto; */
+	/* margin-top: 410px; */
+	position: absolute;
+	bottom: 0px;
+	height: 40px;
+}
+
+#stores
+{
+	width: 15%;
+}
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+  display: none;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+
+#conteudo 
+{
+	width: 100%;
+	height: 36px;
+	box-shadow: 0px 0px 15px #333;
+	background: black;
+}
+
+#conteudo > div
+{
+	width: 33.33%;
+	text-align: center;
+	float: left;
+	height: 100%;
+	background: white;
+}
+
+#conteudo > div:nth-child(1)
+{
+	background: initial;
+	width: 33.34%;
+}
+
+#conteudo > div > .title
+{
+	padding: 10px;
+	background: black;
+	/* margin-bottom: 20px; */
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.novidade
+{
+	color: black;
+	text-align: left;
+	padding: 20px 20px 20px 10px;
+	border-bottom: 1px dotted #666;
+	line-height: 230%;
+}
+
+.novidade-title
+{
+	font-weight: bold;
+	font-size: 28px;
+}
+
+.novidade-data
+{
+	color:#666;
+}
+
+.novidade-conteudo img
+{
+	width: 100%;
+}
+
+#novidades-parent
+{
+	width: 1024px;
+	position: relative;
+	left: 50%;
+	top: 266px;
+	z-index: -5;
+	height: 20px;
+	margin-left: -512px;
+}
+
+#novidades
+{
+	width: 35%;
+	position: absolute;
+	background: white;
+	/* background: rgba(255,255,255,.95); */
+}
+
+#map-lojas
+{
+	width: 200%;
+	background: rgba(255,255,255,.95);
+}

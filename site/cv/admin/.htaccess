@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "cv"
+AuthUserFile "/home/precomai/.htpasswds/public_html/cv2/passwd"
+require valid-user

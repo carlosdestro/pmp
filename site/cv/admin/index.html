@@ -1,0 +1,247 @@
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Curriculo - Preço Mais Popular Farmácias</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="jquery-ui.min.css">
+    <script src="jquery-3.1.1.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="consulta.js"></script>
+    <style type="text/css">
+    	
+    	#salvar
+    	{
+    		float: right;
+    	}
+    	.ui-dialog 
+{
+position:fixed;
+left: 50%;
+top:50%;
+margin-left: -400px;
+margin-top: -300px;
+}
+
+
+
+  TBODY img, #dialog img {
+	    width: 75px;
+	    max-height: 65px;
+	    padding: 4px;
+	    border: 1px solid #CCC;
+	    margin: 10px;
+       } 
+
+   TBODY .item:nth-child(odd)
+   {
+   		background-color: #F5F5F5;
+   }
+   FORM
+   {
+   	margin:20px;
+   }
+   THEAD .tr_header TD
+   {
+   	padding:20px;
+   }
+   #dialog span
+   {
+   		display: block;
+   }
+   #dialog img
+   {
+   	float: left;
+    width: 140px;
+    max-height: initial;
+   }
+   #dialog td
+   {
+   	min-width: 100px;
+   	line-height: 30px;
+    vertical-align: top;   	
+   }
+   .historico
+   {
+   	width: 100%;
+   	height: 120px;
+   	    border: 1px solid #ccc;
+    MARGIN-TOP: 10PX;
+    OVERFLOW-Y: scroll;
+   }
+   textarea
+   {
+   	line-height: 18px;
+   	margin-top: 20px;
+   }
+	#dialog table
+   {
+   	width: 580px;
+   }
+   THEAD TR
+   {
+   	background-color: #DDD;
+   }
+
+        .registro
+        {            
+            margin: 5px;
+        }
+        .btn {
+            margin-top: 25px;
+        }   
+.col-md-3
+{
+        line-height: 280%;
+    }
+.td_center
+{
+	text-align: center;
+}
+
+
+    </style>
+</head>
+<body>
+
+<div style="background-color:#FFFF00 "; align="center" ><img src="img/logofull.png" style=" width: 10%;" /></div>
+
+ <div class="container">
+        <form action="" method="post" id='form-contato' enctype="multipart/form-data">
+
+        <div class="row">
+                <div class="col-md-3">
+                    <div class="form-group">
+                    <label for="cidade">Cidade</label>
+                    <input type="cidade" class="form-control" id="cidade" name="cidade" placeholder="Informe a sua Cidade">
+                    <span class='msg-erro msg-cidade'></span>
+                </div>
+
+                </div>
+                <div class="col-md-3">
+                    <label for="idade">Idade Inicial</label>
+                    <input type="idade" class="form-control" id="idadei" value="18" name="idadei" placeholder="Informe sua Idade" maxlength="2" onkeypress="mascara(this,soNumeros)">
+                    <span class='msg-erro msg-idade'></span>
+                </div>
+                <div class="col-md-3">
+                    <label for="idadef">Idade Final</label>
+                    <input type="idadef" class="form-control" id="idadef" value="30"  name="idadef" placeholder="Informe sua Idade" maxlength="2" onkeypress="mascara(this,soNumeros)">
+                    <span class='msg-erro msg-idade'></span>
+                </div>
+
+                <div class="col-md-3">
+                    <label for="sexo">Sexo</label>
+                    <select class="form-control" name="sexo" id="sexo">
+                    <option value="">Selecione o Sexo</option>
+                    <option value="Feminino">Feminino</option>
+                    <option value="Masculino">Masculino</option>
+                    </select>
+                    <span class='msg-erro msg-sexo'></span>
+                </div>
+
+                <div class="col-md-3">
+                  <label for="vaga">Vaga</label>
+                  <select class="form-control" name="vaga" id="vaga">
+                    <option value="">Selecione uma Vaga</option>
+                    <option value="Gerente de Loja">Gerente de Loja</option>
+                    <option value="Balconista\Atendente">Balconista\Atendente</option>
+                    <option value="Caixa Operador">Caixa Operador</option>
+                    <option value="Farmacêutico">Farmacêutico</option>
+                  </select>
+                  <span class='msg-erro msg-vaga'></span>
+                </div>
+
+                <div class="col-md-3">
+                  <label for="vaga">Situação</label>
+                  <select class="form-control" name="situacao" id="situacao">
+                    <option value="">Selecione uma Situação</option>
+                    <option value="Inicial" selected="selected">Inicial</option>
+                    <option value="Entrevista">Entrevista</option>
+                    <option value="Contratado">Contratado</option>
+                    <option value="Reprovado">Reprovado</option>
+                  </select>
+                  <span class='msg-erro msg-vaga'></span>
+                </div>
+
+                <div class="col-md-3">
+                    <button type="button" class="btn btn-primary" id='botao'> 
+                       Filtrar
+                     </button>
+                </div>
+                    
+              
+        </div>
+
+        
+        
+        </form>
+</div>
+
+
+<TABLE cellpadding=0 cellspacing=0 width=100%  class="container" >
+	<THEAD>
+		<TR class="tr_header">
+			<TD></TD>
+			<TD>NOME</TD>
+			<TD>Idade</TD>
+			<TD>RG</TD>
+			<TD>Sexo</TD>
+			<TD>Cidade</TD>
+			<TD class="td_center">Vaga</TD>
+			<TD class="td_center">Situação</TD>
+		</TR>
+		<TR class="tr_template">
+			<TD><img src='consulta.php?size=1&type=foto&registro=$registro'> </TD>
+			<TD><span></TD>
+			<TD><span></TD>
+			<TD><span></TD>
+			<TD><span></TD>
+			<TD><span></TD>
+			<TD class="td_center"><span></TD>
+			<TD class="td_center"><span></TD>
+			<TD style='display: none'><span></TD>
+			<TD class='cpf' style='display: none'><span></TD>
+		</TR>
+	</THEAD>
+	<TBODY>
+		
+	</TBODY>
+</TABLE>
+
+<div id=dialog>
+	<img>
+	<button type="submit" class="btn btn-primary" id="salvar"> 
+                       Salvar
+                     </button>
+                     <button type="submit" class="btn btn-primary" id="BaixarCV"> 
+                       Baixar CV
+                     </button>
+	<table>
+		<tr><td>Nome:</td><td><span /></td></tr>
+		<tr><td>Idade:</td><td><span /></td></tr>
+		<tr><td>RG:</td><td><span /></td></tr>
+		<tr><td>Sexo:</td><td><span /></td></tr>
+		<tr><td>Cidade:</td><td><span /></td></tr>
+		<tr><td>Vaga:</td><td><span /></td></tr>
+		<tr><td>Situação:</td><td><span class="situacao" /></td></tr>
+		<tr><td>Alterar Situação:</td><td>
+			 <select class="form-control" name="situacao_nova" id="situacao_nova">
+                    <option value="">Selecione uma Situação</option>
+                    <option value="Inicial">Inicial</option>
+                    <option value="Entrevista">Entrevista</option>
+                    <option value="Contratado">Contratado</option>
+                    <option value="Reprovado">Reprovado</option>
+                  </select>
+
+		</td></tr>
+		<tr><td></td><td><textarea class="historico" name='input_historico' id="input_historico" ></textarea></td></tr>
+		<tr><td>Histórico:</td><td><span class="historico" /></td></tr>
+		<tr><td>CPF:</td><td><span class="cpf" /></td></tr>
+	</table>
+</div>
+
+
+        
+
+</body>
+</html>
+

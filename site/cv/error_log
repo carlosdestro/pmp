@@ -1,0 +1,57 @@
+[14-Dec-2017 23:20:44 UTC] PHP Notice:  Undefined variable: conexao_pdo in /home/precomai/public_html/cv2/enviar_curriculo.php on line 102
+[14-Dec-2017 23:20:44 UTC] PHP Notice:  Undefined variable: content in /home/precomai/public_html/cv2/enviar_curriculo.php on line 144
+[14-Dec-2017 23:20:44 UTC] PHP Notice:  Undefined variable: fileName in /home/precomai/public_html/cv2/enviar_curriculo.php on line 145
+[14-Dec-2017 23:20:44 UTC] PHP Notice:  Undefined variable: content_foto in /home/precomai/public_html/cv2/enviar_curriculo.php on line 146
+[14-Dec-2017 23:20:44 UTC] PHP Notice:  Undefined variable: fileName_foto in /home/precomai/public_html/cv2/enviar_curriculo.php on line 148
+[14-Dec-2017 23:20:44 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/precomai/public_html/cv2/pdo.php on line 35
+[14-Dec-2017 23:23:10 UTC] PHP Notice:  Undefined variable: content in /home/precomai/public_html/cv2/enviar_curriculo.php on line 151
+[14-Dec-2017 23:23:10 UTC] PHP Notice:  Undefined variable: fileName in /home/precomai/public_html/cv2/enviar_curriculo.php on line 152
+[14-Dec-2017 23:23:10 UTC] PHP Notice:  Undefined variable: content_foto in /home/precomai/public_html/cv2/enviar_curriculo.php on line 153
+[14-Dec-2017 23:23:10 UTC] PHP Notice:  Undefined variable: fileName_foto in /home/precomai/public_html/cv2/enviar_curriculo.php on line 155
+[14-Dec-2017 23:23:10 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/precomai/public_html/cv2/pdo.php on line 35
+[14-Dec-2017 23:23:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/precomai/public_html/cv2/enviar_curriculo.php:107) in /home/precomai/public_html/cv2/enviar_curriculo.php on line 161
+[14-Dec-2017 23:24:53 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/precomai/public_html/cv2/pdo.php on line 35
+[14-Dec-2017 23:24:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/precomai/public_html/cv2/enviar_curriculo.php:107) in /home/precomai/public_html/cv2/enviar_curriculo.php on line 161
+[14-Dec-2017 23:29:54 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/precomai/public_html/cv2/enviar_curriculo.php on line 175
+[14-Dec-2017 23:29:54 UTC] PHP Notice:  Undefined variable: query in /home/precomai/public_html/cv2/enviar_curriculo.php on line 178
+[14-Dec-2017 23:31:29 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/precomai/public_html/cv2/enviar_curriculo.php on line 175
+[14-Dec-2017 23:31:29 UTC] PHP Notice:  Undefined variable: query in /home/precomai/public_html/cv2/enviar_curriculo.php on line 178
+[14-Dec-2017 23:32:26 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/precomai/public_html/cv2/enviar_curriculo.php on line 175
+[14-Dec-2017 23:32:26 UTC] PHP Notice:  Undefined variable: query in /home/precomai/public_html/cv2/enviar_curriculo.php on line 178
+[14-Dec-2017 23:33:07 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/precomai/public_html/cv2/enviar_curriculo.php on line 175
+[14-Dec-2017 23:33:07 UTC] PHP Notice:  Undefined variable: query in /home/precomai/public_html/cv2/enviar_curriculo.php on line 178
+[14-Dec-2017 23:37:33 UTC] PHP Notice:  Undefined variable: content_foto in /home/precomai/public_html/cv2/enviar_curriculo.php on line 161
+[14-Dec-2017 23:37:33 UTC] PHP Notice:  Undefined variable: fileName_foto in /home/precomai/public_html/cv2/enviar_curriculo.php on line 163
+[14-Dec-2017 23:56:10 UTC] PHP Notice:  Undefined variable: _SESSION in /home/precomai/public_html/cv2/consulta.php on line 93
+[14-Dec-2017 23:56:10 UTC] PHP Notice:  Undefined index: extension in /home/precomai/public_html/cv2/consulta.php on line 33
+[14-Dec-2017 23:56:13 UTC] PHP Notice:  Undefined variable: _SESSION in /home/precomai/public_html/cv2/consulta.php on line 93
+[14-Dec-2017 23:56:13 UTC] PHP Notice:  Undefined index: extension in /home/precomai/public_html/cv2/consulta.php on line 33
+[15-Dec-2017 16:43:43 UTC] PHP Notice:  Undefined offset: 1 in /home/precomai/public_html/cv2/enviar_curriculo.php on line 108
+[15-Dec-2017 16:43:43 UTC] PHP Notice:  Undefined offset: 1 in /home/precomai/public_html/cv2/enviar_curriculo.php on line 108
+[15-Dec-2017 16:43:43 UTC] PHP Notice:  Undefined variable: content in /home/precomai/public_html/cv2/enviar_curriculo.php on line 169
+[15-Dec-2017 16:43:43 UTC] PHP Notice:  Undefined variable: fileName in /home/precomai/public_html/cv2/enviar_curriculo.php on line 170
+[15-Dec-2017 16:43:43 UTC] PHP Notice:  Undefined variable: content_foto in /home/precomai/public_html/cv2/enviar_curriculo.php on line 171
+[15-Dec-2017 16:43:43 UTC] PHP Notice:  Undefined variable: fileName_foto in /home/precomai/public_html/cv2/enviar_curriculo.php on line 173
+[15-Dec-2017 16:44:45 UTC] PHP Notice:  Undefined offset: 1 in /home/precomai/public_html/cv2/enviar_curriculo.php on line 108
+[15-Dec-2017 16:44:45 UTC] PHP Notice:  Undefined offset: 1 in /home/precomai/public_html/cv2/enviar_curriculo.php on line 108
+[15-Dec-2017 16:44:45 UTC] PHP Notice:  Undefined variable: content in /home/precomai/public_html/cv2/enviar_curriculo.php on line 170
+[15-Dec-2017 16:44:45 UTC] PHP Notice:  Undefined variable: fileName in /home/precomai/public_html/cv2/enviar_curriculo.php on line 171
+[15-Dec-2017 16:44:45 UTC] PHP Notice:  Undefined variable: content_foto in /home/precomai/public_html/cv2/enviar_curriculo.php on line 172
+[15-Dec-2017 16:44:45 UTC] PHP Notice:  Undefined variable: fileName_foto in /home/precomai/public_html/cv2/enviar_curriculo.php on line 174
+[15-Dec-2017 16:45:28 UTC] PHP Notice:  Undefined offset: 1 in /home/precomai/public_html/cv2/enviar_curriculo.php on line 108
+[15-Dec-2017 16:45:28 UTC] PHP Notice:  Undefined offset: 1 in /home/precomai/public_html/cv2/enviar_curriculo.php on line 108
+[15-Dec-2017 16:45:28 UTC] PHP Notice:  Undefined variable: content in /home/precomai/public_html/cv2/enviar_curriculo.php on line 172
+[15-Dec-2017 16:45:28 UTC] PHP Notice:  Undefined variable: fileName in /home/precomai/public_html/cv2/enviar_curriculo.php on line 173
+[15-Dec-2017 16:45:28 UTC] PHP Notice:  Undefined variable: content_foto in /home/precomai/public_html/cv2/enviar_curriculo.php on line 174
+[15-Dec-2017 16:45:28 UTC] PHP Notice:  Undefined variable: fileName_foto in /home/precomai/public_html/cv2/enviar_curriculo.php on line 176
+[15-Dec-2017 16:46:41 UTC] PHP Notice:  Undefined variable: content in /home/precomai/public_html/cv2/enviar_curriculo.php on line 172
+[15-Dec-2017 16:46:41 UTC] PHP Notice:  Undefined variable: fileName in /home/precomai/public_html/cv2/enviar_curriculo.php on line 173
+[15-Dec-2017 16:46:41 UTC] PHP Notice:  Undefined variable: content_foto in /home/precomai/public_html/cv2/enviar_curriculo.php on line 174
+[15-Dec-2017 16:46:41 UTC] PHP Notice:  Undefined variable: fileName_foto in /home/precomai/public_html/cv2/enviar_curriculo.php on line 176
+[15-Dec-2017 16:56:34 UTC] PHP Notice:  Undefined variable: content in /home/precomai/public_html/cv2/enviar_curriculo.php on line 172
+[15-Dec-2017 16:56:34 UTC] PHP Notice:  Undefined variable: fileName in /home/precomai/public_html/cv2/enviar_curriculo.php on line 173
+[15-Dec-2017 16:56:34 UTC] PHP Notice:  Undefined variable: content_foto in /home/precomai/public_html/cv2/enviar_curriculo.php on line 174
+[15-Dec-2017 16:56:34 UTC] PHP Notice:  Undefined variable: fileName_foto in /home/precomai/public_html/cv2/enviar_curriculo.php on line 176
+[15-Dec-2017 17:09:43 UTC] PHP Fatal error:  Class 'Imagick' not found in /home/precomai/public_html/cv2/enviar_curriculo.php on line 96
+[15-Dec-2017 17:09:48 UTC] PHP Fatal error:  Class 'Imagick' not found in /home/precomai/public_html/cv2/enviar_curriculo.php on line 96
+[15-Dec-2017 17:10:20 UTC] PHP Fatal error:  Class 'Imagick' not found in /home/precomai/public_html/cv2/enviar_curriculo.php on line 96
